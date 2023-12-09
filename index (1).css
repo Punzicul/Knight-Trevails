@@ -1,0 +1,54 @@
+p{
+    font-family: Fira sans;
+    font-weight: 500;
+    font-size: 20px;
+}
+.knight{
+    width: 100px;
+    height: 100px;
+}
+.lmb{
+    color: rgb(173, 28, 50)
+}
+.rmb{
+    color: rgb(28, 151, 173)
+}
+.start{
+    padding: 7px 90px;
+    font-family: Fira sans;
+    font-weight: 500;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(to right, rgb(173, 28, 50), rgb(28, 151, 173));
+    transition: padding 0.2s;
+    cursor: pointer;
+}
+.start:hover{
+    padding: 15px 120px;
+}
+.board{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.main{
+    display:  flex;
+    align-items: top;
+    gap: 100px;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square{
+    display: flex;;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
